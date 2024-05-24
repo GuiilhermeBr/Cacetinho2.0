@@ -45,4 +45,38 @@ fun main() {
     
     // Float
     var float = 1.1f
+    
+    /* Você não necessariamente precisa atribuir um valor para a variável,
+     * É necessário apenas especificar seu tipo (com letra maiúscula)
+     * Por não possuir nenhum valor, só o seu tipo, será atribuído um valor
+     * Padrão chamado null (nulo)
+    */
+    
+    var texto: String
+    var numero: Int
+    var real: Boolean
+    
+    /*
+     * print
+     * Feito para imprimir textos no console
+     * Muito utilizado para fazer logs
+     * logs nada mais são do que registros que uma pessoa pode fazer para
+     * saber se seu código está funcionando ou não.
+    */
+    
+    // print: Na mesma linha
+    print("Lucas Gay")
+    
+    // Println: Quebra de linha, ou seja, vai para a linha de baixo
+    println(" Gay Lucas")
+    println("Kleberson tbm")
+    
+    // Você pode imprimir o valor de variáveis de qualquer tipo, por exemplo
+    var prato_do_dia = "Kleberson"
+    println(prato_do_dia)
+    
+    // Você pode colocar variáveis no meio do texto do print, chamamos isso de
+    // Concatenação, basta colocar um $ e o nome da variável
+    var numero_premiado = 72
+    println("O número premiado é: $numero_premiado!")
 }
